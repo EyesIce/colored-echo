@@ -11,19 +11,19 @@ info() {
 }
 
 good_message() {
-    echo -e $GREEN$1$NC
+    echo -e "$NC[$GREEN OK $NC]: $GREEN$1$NC"
     echo
     sleep 1
 }
 
 bad_message() {
-    echo -e $RED$1$NC
+    echo -e "$NC[$RED KO $NC]: $RED$1$NC"
     echo
     sleep 1
 }
 
 warn_message() {
-    echo -e $YELLOW$1$NC
+    echo -e "$NC[$YELLOW Changed $NC]: $YELLOW$1$NC"
     echo
     sleep1
 }
