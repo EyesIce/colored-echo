@@ -25,5 +25,5 @@ bad_message() {
 warn_message() {
     echo -e "$NC[$YELLOW Changed $NC]: $YELLOW$1$NC"
     echo
-    sleep1
+    sleep 1
 }
